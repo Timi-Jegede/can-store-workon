@@ -35,9 +35,11 @@ function initialize(products) {
   // To start with, set finalGroup to equal the entire products database
   // then run updateDisplay(), so ALL products are displayed initially.
   finalGroup = products;
-  updateDisplay();
+  // updateDisplay();
 
   // Set both to equal an empty array, in time for searches to be run
+  // categoryGroup = [];
+  // finalGroup = [];
 
   // when the search button is clicked, invoke selectCategory() to start
   // a search running to select the category of products we want to display
